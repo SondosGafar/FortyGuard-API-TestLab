@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+*.pyc
+*.log
+*.pdf
+# Local testing evidence may contain activity IDs and business data.
+evidence/*.json
+evidence/*.csv
+!evidence/.gitkeep

@@ -1,0 +1,19 @@
+FortyGuard API Test Lab - Windows Setup Guide
+
+Package contents: Python testing application, local web interface, and evidence records.
+
+1. Right-click the ZIP and choose EXTRACT ALL.
+2. Open the extracted FortyGuard_TestLab folder.
+3. Double-click START_HERE.bat (Windows batch file). It will install needed packages once.
+4. The website should open at http://localhost:8501.
+5. Open the PREVIOUS TESTS tab to review the documented manual evaluation results.
+6. Live API tests consume credits upon successful completion and require explicit authorization.
+
+If Windows displays a security warning, verify the downloaded file and script contents before execution.
+
+Alternative in VS Code terminal:
+  python -m pip install -r requirements.txt
+  python -m streamlit run app.py
+
+If Windows hides extensions: START_HERE may appear as 'Windows Batch File'.
+Security: Do not include API keys or passwords in submitted evidence.
