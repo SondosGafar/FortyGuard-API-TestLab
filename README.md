@@ -373,7 +373,7 @@ Screenshots of the application and results.
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+git clone https://github.com/SondosGafar/FortyGuard-API-TestLab.git
 cd REPOSITORY_NAME
 ```
 
